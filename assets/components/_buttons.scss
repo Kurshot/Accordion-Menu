@@ -1,0 +1,27 @@
+button{
+    padding-bottom: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    & > i{
+        color: gray;
+        
+    }
+    &:hover{
+        color: turquoise;
+        border-color: turquoise;
+    }
+    &:hover i{
+        color: turquoise;
+    }
+}
+
+button:active{
+    border-bottom: 3px solid turquoise;
+}
