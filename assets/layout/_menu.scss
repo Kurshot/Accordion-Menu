@@ -17,7 +17,14 @@
     }
     &__section > p{
         // display: none;
+        color: gray;
         padding: 0 10px;
+        height: 0px;
+        overflow: hidden;
+        transition: height 1.5s ease;
         
+    }
+    &__section.active > p{
+        height: 90px;
     }
 }

@@ -21,7 +21,16 @@
 }
 
 .menu__section > p {
+  color: gray;
   padding: 0 10px;
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 1.5s ease;
+  transition: height 1.5s ease;
+}
+
+.menu__section.active > p {
+  height: 90px;
 }
 
 button {
